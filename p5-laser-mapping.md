@@ -9,6 +9,10 @@ Si no es capaz de encontrar una dirección para explorar o todas las celdillas d
 Cada cierta distancia, cada vez que cambia de dirección y cada vez que se mueve a una celdilla lejana, obtiene los datos del laser y para cada rayo calcula la probabilidad de que las celdillas que están en ese rayo estén libres o ocupadas. Calculo la probabilidad sumando el logaritmo si está ocupada y restando el logaritmo si está libre. Además engordo los obstáculos 2 celdillas por delante del obstáculo y unas cuantas por detrás. Después paso los logaritmos a probabilidades y esas probabilidades las convierto en pixeles en escala de grises para visualizar el mapa.
 
 
+## Imagen
+![Imagen](https://github.com/sandrag4/blog-robotica-movil/blob/main/images/p5-screenshot-laser_mapping.png "Imagen")
+
+
 ## Video
 video:
-[video](https://urjc-my.sharepoint.com/:v:/g/personal/s_gonzaleza_2022_alumnos_urjc_es/IQBkxnIwE5R-SqzL_tgPdZjKAYeFKGhlsZjuhMnbo8YvOvk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VA70d2)
+[video](https://urjc-my.sharepoint.com/:v:/g/personal/s_gonzaleza_2022_alumnos_urjc_es/IQC_9KH8Mh3mTZ6jWTbpVUgtAYV2XOPwWPWK1PypGttiNhs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AU44eJ)
